@@ -5,7 +5,7 @@ from PIL import Image
 
 # new branch changes
 st.markdown("<h1 style='text-align: center;'>Squirrel VS Tortoise</h1>", unsafe_allow_html=True)
-
+#change in master
 model = tf.keras.models.load_model("squirrelvstortoise[72]data.h5")
 ### load file
 file = st.file_uploader("Choose a image file of squirrel or tortoise", type="jpg")
